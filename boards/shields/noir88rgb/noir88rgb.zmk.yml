@@ -2,7 +2,7 @@ file_format: "1"
 id: noir88rgb
 name: noir88rgb
 type: shield
-url: https://github.com/kata0510/Lily58
+url: https://github.com/NoirGuo/Noir88-keyboard
 requires: [nice_nano_v2]
 features:
   - keys
