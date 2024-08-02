@@ -25,6 +25,7 @@
 
   led_strip: ws2812@0 {
     compatible = "worldsemi,ws2812-spi";
+    label = "WS2812";
 
     /* SPI */
     reg = <0>; /* ignored, but necessary for SPI bindings */
@@ -38,4 +39,10 @@
                           LED_COLOR_ID_RED
                           LED_COLOR_ID_BLUE>;
   };
+};
+
+/ {
+	chosen {
+		zmk,underglow = &led_strip;
+	};
 };
