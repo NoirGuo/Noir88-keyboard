@@ -1,0 +1,12 @@
+file_format: "1"
+id: noir88rgb
+name: noir88rgb
+type: shield
+url: https://github.com/NoirGuo/Noir88-keyboard
+requires: [nrfmicro_13]
+features:
+  - keys
+
+siblings:
+  - noir88rgb_left
+  - noir88rgb_right
