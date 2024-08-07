@@ -54,7 +54,7 @@
         a-gpios = <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
         b-gpios = <&gpio0 9 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
         steps = <15>;
-        status = "disabled";
+
     };
 
     right_encoder: encoder_right {
@@ -62,7 +62,7 @@
         a-gpios = <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
         b-gpios = <&gpio0 9 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
         steps = <15>;
-        status = "disabled";
+
     };
 
     sensors: sensors {
